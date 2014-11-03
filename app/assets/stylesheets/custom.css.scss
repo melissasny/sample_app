@@ -1,8 +1,9 @@
+@import "bootstrap-sprockets";
 @import "bootstrap";
 
 /* mixins, variables, etc. */
 
-$grayMediumLight: #eaeaea;
+$gray-medium-light: #eaeaea;
 
 /* universal */
 
@@ -24,7 +25,7 @@ textarea {
 
 .center {
   text-align: center;
-  h1{
+  h1 {
     margin-bottom: 10px;
   }
 }
@@ -48,7 +49,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $grayLight;
+  color: $gray-light;
 }
 
 p {
@@ -67,8 +68,7 @@ p {
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
-  line-height: 1;
-  &:hover{
+  &:hover {
     color: white;
     text-decoration: none;
   }
@@ -79,12 +79,12 @@ p {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid $grayMediumLight;
-  color: $grayLight;
+  border-top: 1px solid $gray-medium-light;
+  color: $gray-light;
   a {
     color: $gray;
-    &:hover {
-      color: $grayDarker;
+    &:hover{
+      color: $gray-darker;
     }
   }
   small {
@@ -93,9 +93,9 @@ footer {
   ul {
     float:right;
     list-style:none;
-    li {
-      float:left;
-      margin-left: 10px;
+    li{
+      float: left;
+      margin-left: 15px; 
     }
   }
 }
